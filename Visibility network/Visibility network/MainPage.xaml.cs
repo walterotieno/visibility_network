@@ -35,7 +35,7 @@ namespace Visibility_network
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            WebView1.Navigate(new Uri(textBox1.Text));
+            WebView1.Navigate(new Uri("http://"+textBox1.Text));
         }
     }
 }
